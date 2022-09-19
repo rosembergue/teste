@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textoExibicao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -24,7 +24,8 @@
         android:layout_marginStart="21dp"
         android:layout_marginLeft="21dp"
         android:layout_marginTop="19dp"
+        android:onClick="alterarTexto"
         android:text="Clique aqui"
-        app:layout_constraintStart_toStartOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintStart_toStartOf="@+id/textoExibicao"
+        app:layout_constraintTop_toBottomOf="@+id/textoExibicao" />
 </androidx.constraintlayout.widget.ConstraintLayout>
